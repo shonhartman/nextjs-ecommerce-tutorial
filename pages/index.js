@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bienvinidos a <a href="https://nextjs.org">Next.js!</a>
+          Bienvinidos <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
@@ -22,15 +22,15 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          {/* <a href="/merch" className={styles.card}>
-            <h2>Merchandise &rarr;</h2>
-            <p>Shop Merchandise</p>
+          <a href="https://nextjs.org/docs" className={styles.card}>
+            <h2>Documentation &rarr;</h2>
+            <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="/vinyl" className={styles.card}>
-            <h2>Vinyl &rarr;</h2>
-            <p>Shop Vinyl Here</p>
-          </a> */}
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Learn &rarr;</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
