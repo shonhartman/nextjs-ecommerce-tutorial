@@ -22,7 +22,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/merch" className={styles.card}>
+          {/* <a href="/merch" className={styles.card}>
             <h2>Merchandise &rarr;</h2>
             <p>Shop Merchandise</p>
           </a>
@@ -30,7 +30,7 @@ export default function Home() {
           <a href="/vinyl" className={styles.card}>
             <h2>Vinyl &rarr;</h2>
             <p>Shop Vinyl Here</p>
-          </a>
+          </a> */}
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
