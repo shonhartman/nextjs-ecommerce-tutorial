@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -23,20 +22,15 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/merch">
-            <a className={styles.card}>
-              <h2>Merchandise &rarr;</h2>
-              <p>Shop Merch</p>
-            </a>
-          </Link>
+          <a href="/merch" className={styles.card}>
+            <h2>Merchandise &rarr;</h2>
+            <p>Shop Merch</p>
+          </a>
 
-          <Link href="/vinyl">
-            <a className={styles.card}>
-              <h2>Vinyl &rarr;</h2>
-              <p>Shop Vinyl</p>
-            </a>
-          </Link>
-
+          <a href="/vinyl" className={styles.card}>
+            <h2>Vinyl &rarr;</h2>
+            <p>Shop Vinyl</p>
+          </a>
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
